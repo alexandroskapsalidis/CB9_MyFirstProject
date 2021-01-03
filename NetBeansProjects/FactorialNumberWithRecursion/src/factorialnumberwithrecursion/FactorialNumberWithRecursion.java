@@ -38,7 +38,7 @@ public class FactorialNumberWithRecursion {
         } else if (n == 0) {
             return 0;
         }
-        output = fact(n - 1) * n; // Recursion: Function calling iself
+        output = n * fact(n - 1); // Recursion: Function calling iself
         return output;
 
     }
